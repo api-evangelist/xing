@@ -64,23 +64,109 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-XING is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
+XING is a professional networking platform based in Germany that connects professionals, helps them find jobs, and enables recruiters to discover talent. The service offers job listings, company profiles, and networking tools for career development, serving over a million job seekers and thousands of recruiters across Europe.
 
-**Areas:** Company
+**Areas:** Company · Networking · Jobs · Recruiters · Europe
 
 ## XING on APIs.io
 
 Everything profiled for XING is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/xing/](https://apis.io/providers/xing/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [XING API](https://apis.io/apis/xing/xing-api/) — XING API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetVendorJobsOrdersJsonResponse](https://apis.io/schemas/xing/xing-get-vendor-jobs-orders-json-response/)
+- [GetVendorJobsPostingsJsonResponse](https://apis.io/schemas/xing/xing-get-vendor-jobs-postings-json-response/)
+- [GetVendorJobsPostingsStatusJsonResponse](https://apis.io/schemas/xing/xing-get-vendor-jobs-postings-status-json-response/)
+- [PostVendorJobsPostingsJsonRequest](https://apis.io/schemas/xing/xing-post-vendor-jobs-postings-json-request/)
+- [PostVendorJobsPostingsJsonResponse](https://apis.io/schemas/xing/xing-post-vendor-jobs-postings-json-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Xing Context](https://apis.io/jsonld/xing/xing-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [XING API Rules](https://apis.io/rules/xing/xing-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Xing Domain Security](https://apis.io/security/xing/xing-domain-security/)
+- [Xing Trust Center](https://apis.io/security/xing/xing-trust-center/)
+- [Xing Vulnerability Disclosure](https://apis.io/security/xing/xing-vulnerability-disclosure/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://xing.com/)
+- [Documentation](https://dev.xing.com/)
+- [API reference](https://dev.xing.com/api/)
+- [Sign up](https://www.xing.com/start/signup)
+- [Support](https://help.xing.com/hc/de?segment=b2c)
+- [Blog](https://medium.com/xing-engineering)
+- [Security](https://www.new-work.se/.well-known/rfc-2350.txt)
+- [Compliance](https://privacy.xing.com/en/your-security)
+- [Terms of service](https://dev.xing.com/api/terms_and_conditions)
+- [Privacy policy](https://www.xing.com/privacy)
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/xing/](https://apis.io/providers/xing/).
+**Kin Score 50.3** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 52.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 50.0 |
+
+**Agent readiness 37.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/xing/](https://apis.io/providers/xing/).
 
 ## How this profile is made
 
